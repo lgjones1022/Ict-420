@@ -1,44 +1,51 @@
-h1{
-    color: white;
-    background-color: #0033a0;
-    text-align: center;
-    padding: 10px;
-    border : 2px solid black;
-}
-a{
-    color : #0033a0;
-}
-a:hover{
-    color : #000000;
-    text-decoration: none;
-}
-*{
-    font-family: 'times new roman', serif;
+/* General Reset */
+* {
+    font-family: 'Times New Roman', serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     line-height: 1.5;
 }
-html{
+
+/* Body Styling */
+body {
     width: 50vw;
     margin: auto;
 }
-p{
+
+/* Paragraph Styling */
+p {
     color: white;
     background-color: #0033a0;
     text-align: center;
     padding: 10px;
-    border : 2px solid black;
+    border: 2px solid black;
 }
+
+/* Headings Styling */
 h1, h2, h3, h4 {
     width: 50vw;
     margin: auto;
     color: #0033a0;
     font-size: 2em;
-    border : 2px solid black;
-}
-h1, h2, h3, h4, ul, li {
+    border: 2px solid black;
     text-align: center;
     padding: 2px;
-    margin: auto
+}
+
+/* List Styling */
+ul, li {
+    text-align: center;
+    padding: 2px;
+    margin: auto;
+}
+
+/* Anchor Links */
+a {
+    color: #0033a0;
+}
+
+a:hover {
+    color: #000000;
+    text-decoration: none;
 }
