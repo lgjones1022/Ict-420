@@ -19,6 +19,7 @@ a:hover{
     box-sizing: border-box;
     line-height: 1.5;
 }
-html {
-    background: linear-gradient(white, #0033a0);
+html{
+    width: 50vw;
+    margin: auto;
 }
