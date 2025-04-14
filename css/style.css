@@ -13,7 +13,7 @@ body {
 }
 
 /* Navigation Styling */
-nav {
+ {
     color: white;
     background-color: #0033a0;
     text-align: center;
@@ -24,8 +24,6 @@ nav {
 /* Headings Styling */
 h1, h2, h3, h4 {
     margin: auto;
-    color: white;
-    background-color: #0033a0;
     font-size: 2em;
     border: 2px solid black;
     text-align: center;
