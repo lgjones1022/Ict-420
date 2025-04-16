@@ -13,7 +13,7 @@ body {
 }
 
 /* Headings Styling */
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5, h6, h7, h8, h9 {
     color: white;
     background-color: #0033a0;
     margin: auto;
