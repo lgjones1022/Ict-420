@@ -66,6 +66,9 @@ nav ul a {
     font-size: medium;
     padding: 10px;
 }
-img {
-    align-items: center;
+.headshot {
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    
 }
