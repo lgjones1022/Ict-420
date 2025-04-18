@@ -62,7 +62,7 @@ nav ul a {
     color: black;
     text-decoration: none;
     text-transform: uppercase;
-    letter-spacing: 30%;
+    letter-spacing: 30px;
     font-size: medium;
     padding: 10px;
 }
