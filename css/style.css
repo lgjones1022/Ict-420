@@ -72,3 +72,12 @@ nav ul a {
     height: 300px;
     
 }
+article {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+section {
+    min-width: 49vw;
+}
