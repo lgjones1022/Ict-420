@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Times New Roman', serif;
-    max-width: 90%; /* Use percentage for responsiveness */
+    max-width: 90%;
     margin: auto;
 }
 
@@ -42,8 +42,8 @@ a {
 }
 
 a:hover {
-    color: #000000; /* Change to black for contrast */
-    text-decoration: underline; /* Add underline for better visibility */
+    color: #000000;
+    text-decoration: underline;
 }
 
 a:focus {
@@ -55,7 +55,6 @@ nav ul {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
-    list-style-position: inside;
     list-style: none;
 }
 
@@ -83,8 +82,8 @@ article {
 }
 
 section {
-    flex-basis: 45%; /* Adjust for better responsiveness */
-    min-width: 300px; /* Ensure a minimum width */
+    flex-basis: 45%;
+    min-width: 300px;
 }
 
 #jobs {
@@ -95,8 +94,27 @@ section {
 }
 
 #jobs > section {
-    flex: 1 1 calc(33.33% - 10px); /* Adjust for a 3-column layout with gaps */
-    min-width: 300px; /* Ensure a minimum width */
+    flex: 1 1 calc(33.33% - 10px);
+    min-width: 300px;
+}
+
+/* Grid for job cards */
+.h2-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.job-card {
+    background-color: grey
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.job-card h2 {
+    margin-top: 0;
 }
 
 /* Media Queries for Responsiveness */
@@ -112,28 +130,10 @@ section {
     }
 
     section {
-        flex-basis: 100%; /* Stack sections on smaller screens */
+        flex-basis: 100%;
     }
+
     .h2-grid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
-        padding: 20px;
+        grid-template-columns: 1fr;
     }
-    
-    .job-card {
-        background-color: #f0f0f0;
-        border-radius: 10px;
-        padding: 15px;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
-    
-    .job-card h2 {
-        margin-top: 0;
-    }
-    
-    @media (max-width: 768px) {
-        .h2-grid {
-            grid-template-columns: 1fr;
-        }
-    }
+}
