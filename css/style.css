@@ -114,4 +114,20 @@ section {
     section {
         flex-basis: 100%; /* Stack sections on smaller screens */
     }
+    /* Styling for the container holding the h2 elements */
+.h2-grid {
+    display: grid; /* Use CSS Grid for layout */
+    grid-template-columns: repeat(2, 1fr); /* Create 2 columns */
+    gap: 20px; /* Add spacing between items */
+    padding: 20px; /* Add padding around the grid */
+}
+
+/* Styling for each h2 element */
+.h2-grid h2 {
+    background-color: lightgrey; /* Light grey background */
+    border-radius: 10px; /* Rounded edges */
+    padding: 10px; /* Add padding inside each h2 */
+    text-align: center; /* Center the text */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
 }
