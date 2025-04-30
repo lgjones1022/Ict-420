@@ -136,7 +136,7 @@ section {
     .h2-grid {
         grid-template-columns: 1fr;
     }
-    article {
+    header {
         display: flex;
         flex-direction: row;
         gap: 5px;
