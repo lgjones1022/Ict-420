@@ -136,4 +136,11 @@ section {
     .h2-grid {
         grid-template-columns: 1fr;
     }
+    article {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        flex-wrap: wrap;
+        justify-content: space-between
+    }
 }
